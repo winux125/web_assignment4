@@ -14,3 +14,7 @@ This is my website for assignment 4. It has 5 pages with forms, one page for eac
 ## How to open
 
 Download the project and open index.html in the browser. Bootstrap is connected with CDN, so internet is needed.
+
+## Link
+
+http://winux125.github.io/web_assignment4/
