@@ -28,3 +28,21 @@ body {
   margin-top: 15px;
   padding: 7px 20px;
 }
+
+/* validation colors */
+.form-control:user-valid,
+.form-select:user-valid {
+  border-color: #198754;
+}
+
+.form-control:user-invalid,
+.form-select:user-invalid {
+  border-color: #dc3545;
+}
+
+.form-control:user-valid ~ .valid-feedback,
+.form-select:user-valid ~ .valid-feedback,
+.form-control:user-invalid ~ .invalid-feedback,
+.form-select:user-invalid ~ .invalid-feedback {
+  display: block;
+}
